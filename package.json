@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-manage-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Saidur Rahman",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.1.2"
+  }
+}
